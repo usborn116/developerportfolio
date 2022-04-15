@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <title>Scoreboard</title>
+  <link rel="stylesheet" href="scores.css">
+  <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+</head>
+
+<script src="main.js"></script>
+<body>
+<div id="app">
+<div class='scoreboard'>
+  <div class="name ash">Ashley</div>
+  <div class="name usb">Usborn</div>
+  <div class="name shek">Shekinah</div>
+  <div class="score" id="ascore">0</div>
+  <div class="score" id="uscore">0</div>
+  <div class="score" id="sscore">0</div>
+  <div class="controls">
+    Score: <input type="text" id="auserInput"/>
+    <button class="button" onclick="ashmath()">Submit</button>
+  </div>
+  <div class="controls">
+    Score: <input type="text" id="uuserInput"/>
+    <button class="button" onclick="usbmath()">Submit</button>
+  </div>
+  <div class="controls">
+    Score: <input type="text" id="suserInput"/>
+    <button class="button" onclick="shekmath()">Submit</button>
+  </div>
+</div><br>
+  <div class="reset">
+    <button class="button" onclick="resetscore()">RESET</button>
+  </div> 
