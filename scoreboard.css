@@ -1,0 +1,58 @@
+.scoreboard{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 300px;
+  font-family: 'Quicksand', sans-serif
+}
+
+.name
+.score{
+  padding: 10px;
+  text-align: center;
+}
+
+.name {
+  font-weight:bold;
+  border-bottom:1px solid #ddd;
+}
+
+.ash{
+  color: #009578;
+}
+
+.usb{
+  color: #006588;
+}
+
+.shek{
+  color: #004898;
+}
+
+.score{
+  font-size:2em;
+}
+
+.controls{
+  display:flex;
+}
+
+.button{
+  flex-grow:1;
+  border-color:black;
+  border-radius:10px;
+  background:#eee;
+  cursor:pointer;
+  font-size:1.2em;
+}
+
+.button:hover{
+  background:#ddd;
+}
+
+.button:active{
+  background:#ccc;
+}
+.reset{
+  text-align: center;
+  background-color:#999abc;
+} 
